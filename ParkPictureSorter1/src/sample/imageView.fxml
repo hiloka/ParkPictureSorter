@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="imageViewPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imageViewPane" fitHeight="455.0" fitWidth="455.0" layoutX="273.0" layoutY="45.0" opacity="0.53" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="92.0" layoutY="242.0" mnemonicParsing="false" text="Last Picture" />
+      <Button layoutX="792.0" layoutY="242.0" mnemonicParsing="false" text="Next Picture" />
+      <RadioButton layoutX="446.0" layoutY="530.0" mnemonicParsing="false" text="Favorite" />
+      <RadioButton layoutX="446.0" layoutY="576.0" mnemonicParsing="false" text="Wildlife" />
+      <RadioButton layoutX="446.0" layoutY="619.0" mnemonicParsing="false" text="Trees" />
+      <RadioButton layoutX="446.0" layoutY="661.0" mnemonicParsing="false" text="Trails" />
+      <RadioButton layoutX="445.0" layoutY="707.0" mnemonicParsing="false" text="Personal" />
+      <Button layoutX="417.0" layoutY="763.0" mnemonicParsing="false" text="Save Image Selection" />
+      <Button layoutX="696.0" layoutY="763.0" mnemonicParsing="false" text="Home Page" />
+   </children>
+</Pane>

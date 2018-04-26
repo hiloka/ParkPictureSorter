@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane fx:id="scenePane" prefHeight="1000.0" prefWidth="1000.0">
+         <children>
+            <Button id="allImagesButton" fx:id="allImagesButton" layoutX="24.0" layoutY="55.0" mnemonicParsing="false" onAction="#allImageClicked" prefHeight="31.0" prefWidth="98.0" text="All Images" />
+            <Label layoutX="237.0" layoutY="21.0" prefHeight="21.0" prefWidth="459.0" text="Chose Images to Load " />
+            <Button id="favoritesImagesButton" fx:id="favoritesImageButton" layoutX="139.0" layoutY="55.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="Favorites" />
+            <Button id="treesImagesButton" fx:id="treesImageButton" layoutX="263.0" layoutY="55.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="Trees" />
+            <Button id="trailsImagesButton" fx:id="trailsImageButton" layoutX="382.0" layoutY="55.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="Trails" />
+            <Button id="personalImagesButton" fx:id="personalImageButton" layoutX="500.0" layoutY="55.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="Personal" />
+            <Button fx:id="wildlifeImageButton" layoutX="326.0" layoutY="786.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="Wildlife" />
+            <ImageView fx:id="imageViewer" fitHeight="423.0" fitWidth="566.0" layoutX="62.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true" />
+            <VBox layoutX="696.0" layoutY="191.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <RadioButton mnemonicParsing="false" text="Favorites" />
+                  <RadioButton mnemonicParsing="false" text="Trees" />
+                  <RadioButton mnemonicParsing="false" text="Trails" />
+                  <RadioButton mnemonicParsing="false" text="Personal" />
+                  <RadioButton mnemonicParsing="false" text="Wildlife" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+            </VBox>
+            <Button fx:id="wildlifeImagesButton" layoutX="628.0" layoutY="55.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="98.0" text="Wildlife" />
+         </children></Pane>
+   </children>
+</GridPane>
